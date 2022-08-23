@@ -1,0 +1,140 @@
+* {
+     padding: 0;
+    margin: 0;
+} 
+
+.navbar  {
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+
+}
+
+.navbar-container {
+
+    display: flex;
+    /* justify-content: flex-start; */
+    
+}
+
+.logo img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.list {
+    display: flex;
+    /* color: red;  */
+    justify-content: flex-end;
+    padding: 30px;
+    color: #B5B5B5;
+    font-weight: 400px;
+}
+
+
+.list-item {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 60px;
+    font-weight: 400px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.list-item:hover {
+    color: black;
+}
+
+div .nav-buttons {
+
+    color: #F9F9FC;
+    background-color: #5955B3;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+div .nav-buttons:hover {
+
+    background-color: black;
+}
+
+
+
+
+.banner-container {
+
+    display: flex;
+}
+
+.heading-text {
+    
+    font-size: 70px;
+    font-weight: 800;
+    color: #3C2F60;
+    margin-top:200px ;
+    margin-left: 15px;
+    width: 800px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+
+.heading-text span {
+    color: #5955B3;
+}
+
+.description {
+ color: #B5B5B5 ;
+ font-weight: 400px;
+ font-size: 25px;
+ width: 800px;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ text-align: center;
+ word-break: break-word;
+ margin-top: 18px;
+
+}
+
+.nav-button {
+
+    color: #F9F9FC;
+    background-color: #5955B3;
+    border-radius: 10px;
+    padding: 25px 35px;
+    border-style: none;
+    font-size: 15px;
+    margin-left: 320px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+
+    background-color: black;
+}
+
+
+
+
+.right-image img {
+position: absolute;
+    float: right;
+    height: 600px;
+}
